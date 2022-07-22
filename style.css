@@ -1,0 +1,170 @@
+*{margin: 0;padding: 0}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.fix{
+    overflow: hidden;
+}
+/**** header start******/
+header{
+    background-color: #E8EBF2;
+    padding: 20px;
+    height: 59px;
+    padding-top: 30px;
+    width:100%;
+}
+.header_wrapper{
+    width:960px;
+    display: block;
+    margin: 0 auto;
+}
+.header_left{
+
+}
+.header_left a{}
+.header_left img{}
+
+/****** header nav start******/
+.header_right{}
+.header_right ul{}
+.header_right ul li{
+    list-style-type: none;
+    float: left;
+}
+.header_right ul li a{
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    color:black;
+}
+.header_right ul li a:hover{
+    color:#67C2D4
+}
+
+/****** section (slider)******/
+section{
+    width: 100%;
+    overflow: hidden;
+}
+.slider_img{
+    background-color: #81E3EC;
+    height: 422px;
+}
+.slider_img img{
+    width:960px;
+    display: block;
+    margin: 0 auto;
+}
+
+/****** section (middel)********/
+.section_middel_wrapper{
+    width: 100%;
+    background-color: #EBF4FE;
+}
+.section_warp{
+    padding: 50px 0 20px 0;
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.section_middel_01{
+    width: 232px;
+    margin-right: 10px;
+}
+.section_middel_01:nth-child(4){
+    margin-right: 0;
+}
+.section_middel_img_h{
+    margin-bottom: 20px;
+    text-align: center
+}
+.section_middel_01 p{
+    margin-bottom: 20px;
+}
+
+/******* section bottom****/
+.section_bottom{
+}
+.section_btn_right img{
+    margin-left: 10px;
+}
+.section_btm_img{
+    width: 960px;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding: 30px 0 30px 0;
+}
+.section_img_h{
+    width: 175px;
+}
+.section_btn_imgs{
+    width: 960px;
+    display: block;
+    margin:0 auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.section_btn_imgs img{
+    margin-right: 20px;
+}
+.section_btn_imgs img:nth-child(4){
+    margin-right: 0;
+}
+
+/******* footer ***********/
+footer{
+    width:100%;
+    background-color: #E8EBF2;
+}
+.footer_wrap{
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+}
+
+/*********** foot01********/
+.footer_wrapper{
+    padding-top: 20px;
+}
+.foot01{
+    width: 200px;
+    margin-right: 40px;
+}
+.foot02{
+    width: 100px;
+    margin-right: 40px;
+}
+.foot03{
+    width: 100px;
+    margin-right: 40px;
+}
+.foot04{
+    width: 200px;
+    margin-right: 40px;
+}
+.foot05{
+    width: 200px;
+}
+.foot05 p a img{
+    margin-right: 10px;
+}
+
+
+.footer_bottom{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer_p p{
+    width:600px
+}
+.footer_p img{
+
+}
+
